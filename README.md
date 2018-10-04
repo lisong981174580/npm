@@ -252,7 +252,7 @@ npm包已经发布完毕，现在要测试如果是其他人安装你的包后�
 
 新建一个文件夹，写一个test.js如下
 ```
-var qiaoTestDemo2 = require('qiao.test.demo2');
+var qiaoTestDemo2 = require('test-lisong');
  
 function test(){
     var destZip            = 'd:/1.zip';
@@ -270,9 +270,9 @@ test();
 ```
 注意，和之前test/test.js的不同是require不同，这次是直接引用，
 
-然后执行node test.js，发现报错，是没有引用qiao.test.demo2包，
+然后执行node test.js，发现报错，是没有引用test-lisong包，
 
-执行npm install qiao.test.demo2，安装包，再次执行node test.js，
+执行npm install test-lisong，安装包，再次执行node test.js，
 
 发现还是报错
 
@@ -345,7 +345,7 @@ npm install qiao.test.demo2
 
 ```
 {
-  "name": "qiao.test.demo2",
+  "name": "test-lisong",
   "version": "0.0.4",
   "description": "qiao test demo 2",
   "main": "index.js",
@@ -406,5 +406,23 @@ npm install qiao.test.demo2
 > http://uikoo9.com/book/chapterDetail/124
 
 > http://uikoo9.com/book/chapterDetail/123
+
+## 十五、总结
+
+1.npm注册
+
+2.npm发包
+
+3.实现压缩文件夹功能
+
+4.将npm包对外
+
+5.添加readme.md
+
+6.丰富package.json
+
+7.添加npmignore
+
+8.使用npm脚本
 
 
