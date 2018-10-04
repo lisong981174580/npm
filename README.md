@@ -4,6 +4,7 @@ npm学习...
 > 本人账号 allen(lisong),密码肯定不能告诉你了...
 
 官网是这个：https://www.npmjs.com/
+
 淘宝镜像： http://npm.taobao.org/
 
 官网介绍：npm is the package manager for javascript，
